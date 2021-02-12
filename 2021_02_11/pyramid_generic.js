@@ -35,4 +35,4 @@ function pyramid_generator(lines, star_symbol, space_symbol) {
   }
 }
 
-pyramid_generator(8, 'A', ' ')
+pyramid_generator(37, '*', ' ')
