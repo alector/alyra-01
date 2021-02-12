@@ -41,11 +41,12 @@ Do you see a pattern here?
 (2) lines = 8
 
 From (1) and (2) we get: 
+
 spaces_right + stars =  lines
 and
 spaces_right = lines - stars 
 
-We just calculated the spaces for the RIGHT part. 
+We just calculated the spaces for the RIGHT part (spaces_right). 
 We also need to add the same number of spaces for th LEFT part (spaces_left).
 That's why we have tou double this number.
 
