@@ -31,8 +31,8 @@ LEFT       RIGHT
 ****    [    ****] = 4th line: 4 spaces_right + 4 stars (4 + 2 = 8)
 *****   [   *****] = 5th line: 3 spaces_right + 5 stars (3 + 5 = 8)
 ******  [  ******] = 6th line: 2 spaces_right + 6 stars (2 + 6 = 8)
-******* [ *******] = 7th line: 1 spaces_right + 7 stars (7 + 1 = 8)
-********[********] = 8th line: 0 spaces_right + 8 stars (8 + 0 = 8)
+******* [ *******] = 7th line: 1 spaces_right + 7 stars (1 + 7 = 8)
+********[********] = 8th line: 0 spaces_right + 8 stars (0 + 8 = 8)
 
 
 Do you see a pattern here? 
