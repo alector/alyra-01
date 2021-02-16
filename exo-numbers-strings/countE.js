@@ -12,7 +12,7 @@ en totale: 75
 
 */
 
-let myText = `Je suis le ténébreux, - le veuf, - l'inconsolé,
+const myText = `Je suis le ténébreux, - le veuf, - l'inconsolé,
 Le prince d'Aquitaine à la tour abolie :
 Ma seule étoile est morte, - et mon luth constellé
 Porte le soleil noir de la Mélancolie.
