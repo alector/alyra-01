@@ -1,4 +1,4 @@
-myText = `Je suis le ténébreux, - le veuf, - l'inconsolé,
+let myText = `Je suis le ténébreux, - le veuf, - l'inconsolé,
 Le prince d'Aquitaine à la tour abolie :
 Ma seule étoile est morte, - et mon luth constellé
 Porte le soleil noir de la Mélancolie.
@@ -16,9 +16,9 @@ Et j'ai deux fois vainqueur traversé l'Achéron ;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 
-characters = myText.length
-spaces = myText.split(' ').length - 1
+let characters = myText.length
+let spaces = myText.split(' ').length - 1
 
-msg = `Le texte possède ${characters} caractères, dont les ${spaces} sont espaces`
+let msg = `Le texte possède ${characters} caractères, dont les ${spaces} sont espaces`
 
 console.log(msg)
