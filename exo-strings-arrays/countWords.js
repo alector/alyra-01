@@ -16,6 +16,15 @@ Et j'ai deux fois vainqueur traversé l'Achéron ;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 
-let wordsNum = myText.split(' ').length
+words_initial = myText.split(/[\'\s]/)
+// console.log(words_initial)
 
-console.log(`The text has ${wordsNum} words`)
+console.log(`The UNCLEAN text has\t ${words_initial.length} words`)
+
+remove = ['?', '...', '-', ';', ':', ' ', '']
+words_clean = words_initial.filter(el => !remove.includes(el))
+// console.log(words_clean)
+
+let wordsNum = words_clean.length
+
+console.log(`The CLEAN text has\t ${wordsNum} words`)
