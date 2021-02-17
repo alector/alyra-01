@@ -11,14 +11,10 @@ HAVE YOU EVER HAD A DREAM NEO THAT YOU WERE SO SURE WAS REAL WHAT IF YOU WERE UN
 */
 
 let str = 'YRMV PFL VMVI YRU R UIVRD EVF KYRK PFL NVIV JF JLIV NRJ IVRC NYRK ZW PFL NVIV LERSCV KF NRBV WIFD KYRK UIVRD YFN NFLCU PFL BEFN KYV UZWWVIVETV SVKNVVE KYV UIVRD NFICU REU KYV IVRC NFICU'
+let wordlist = str.split(' ')
 
-let simple_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-let alphabet = simple_alphabet.repeat(4)
-
-let alphabet_list = alphabet.split('')
-
-alphabet = str.split(' ')
-wordlist = str.split(' ')
+let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+let alphabet_list = alphabet.repeat(2).split('')
 
 for (i = 1; i < 26; ++i) {
   caesar_plus_move = i
