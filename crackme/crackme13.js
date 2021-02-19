@@ -6,7 +6,7 @@ let pass = false
 const crackme13 = password => {
   ;['a', 'e', 'u'].forEach(el => {
     if (password.split(el).length - 1 > 3) {
-      if (parseInt(password.slice(1, 3), 10) % 2 === 0 && password.split('.').length - 1 === 1) {
+      if (parseInt(password.slice(1, 3), 10) % 2 === 0 && password.split('.').length === 2) {
         pass = true
       }
     }
