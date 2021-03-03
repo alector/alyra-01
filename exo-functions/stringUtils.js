@@ -5,3 +5,12 @@ const reverseStr = str => {
 }
 
 console.log(reverseStr('Hello!'))
+
+// Ajouter au fichier précédent une fonction isPalindrome qui prend une string en paramètre et qui retourne true si la string est un palindrome, sinon la fonction devra retourner false. Vous devrez utiliser la fonction reverseStr pour effectuer cette vérification.
+
+const isPalindrome = str => {
+  return str === reverseStr(str)
+}
+
+console.log(isPalindrome('1441'))
+console.log(isPalindrome('1223'))
