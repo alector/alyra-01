@@ -20,8 +20,8 @@ function sortAscend(myArray) {
       // ascending order = previous is lower than next
       // if previous is greater than previous
       // Swap previous with current
-      if (myArray[current] < myArray[previous]) {
-        ;[myArray[current], myArray[previous]] = [myArray[previous], myArray[current]]
+      if (myArray[previous + 1] < myArray[previous]) {
+        ;[myArray[previous + 1], myArray[previous]] = [myArray[previous], myArray[previous + 1]]
       }
     }
   }
@@ -42,4 +42,3 @@ function makeUnique(a) {
 // makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1]) //returns [1, 2, 3, 4, 5, 7]
 
 test1 = makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1])
-console.log(test1)
