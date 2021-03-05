@@ -20,6 +20,7 @@ function sortAscend(myArray) {
       // ascending order = previous is lower than next
       // if previous is greater than previous
       // Swap previous with current
+
       if (myArray[previous + 1] < myArray[previous]) {
         ;[myArray[previous + 1], myArray[previous]] = [myArray[previous], myArray[previous + 1]]
       }
