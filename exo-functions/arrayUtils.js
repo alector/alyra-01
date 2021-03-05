@@ -17,7 +17,7 @@ function sortAscend(myArray) {
   for (let current = 1; current < myArray.length; current++) {
     // previous > -1 means current > 0
     for (let previous = current - 1; previous > -1; previous--) {
-      // if Current is greater than previous
+      // if previous is greater than previous
       // Swap previous with current
       if (myArray[current] < myArray[previous]) {
         ;[myArray[current], myArray[previous]] = [myArray[previous], myArray[current]]
