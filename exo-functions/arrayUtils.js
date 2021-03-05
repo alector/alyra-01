@@ -10,7 +10,7 @@ console.log(biggest([1, 2, 3]))
 // sortAscend([99, 100, 101, 1]) // returns [1, 99, 100, 101]
 
 // PANOS NOTES:
-//1. Insertion Sort Algorithm - compaire every element with the element before it
+//1. Insertion Sort Algorithm - compare every element with the element before it
 //2. representation visuelle  https://miro.medium.com/max/1400/1*X78qSPfXtjwMzPmUvv_4nQ.png
 
 function sortAscend(myArray) {
@@ -18,7 +18,7 @@ function sortAscend(myArray) {
     // previous > -1 means current > 0
     for (let previous = current - 1; previous > -1; previous--) {
       // ascending order = previous is lower than next
-      // if previous is greater than previous
+      // if previous is greater than current
       // Swap previous with current
 
       if (myArray[previous + 1] < myArray[previous]) {
