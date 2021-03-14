@@ -1,9 +1,7 @@
-
 // Version originale: https://github.com/alector/alyra-01/blob/master/exam-js/isMagicSquare_v2.js
 // Deux bugs corrigés:
-// À la ligne 48 de la version originale, le  `let p = null` doit être remplacé par `let p = 0` . 
+// À la ligne 48 de la version originale, le  `let p = null` doit être remplacé par `let p = 0` .
 // À la ligne 39 de la version originale, le `myArray.length - line` doit être remplacé par `myArray.length - line -1`.
-
 
 const square1 = [
   [2, 7, 6],
@@ -48,7 +46,7 @@ function isMagicSquare(myArray) {
   }
   final[f] = p
 
-
+  console.log('\n\n', { final })
   // remove dubplicate numbers by creating a set
   let remove_duplicates = [...new Set(final)]
 
