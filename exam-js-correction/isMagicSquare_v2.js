@@ -1,5 +1,5 @@
 
-// Version originale: https://github.com/AbsoluteVirtueXI/blockchain-courses/blob/master/exercices/programming/corrections-exam-js/isMagicSquare.js 
+// Version originale: https://github.com/alector/alyra-01/blob/master/exam-js/isMagicSquare_v2.js
 // Deux bugs corrigés:
 // À la ligne 48 de la version originale, le  `let p = null` doit être remplacé par `let p = 0` . 
 // À la ligne 39 de la version originale, le `myArray.length - line` doit être remplacé par `myArray.length - line -1`.
