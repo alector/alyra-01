@@ -1,4 +1,4 @@
-// Simple test function / simulation without the interactive game
+// Simple test function - simulation without the interactive game
 
 const getRandomInt = (max) => {
 	return Math.floor(Math.random() * max);
