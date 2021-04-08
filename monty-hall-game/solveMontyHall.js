@@ -35,7 +35,7 @@ const play = (printOption = true) => {
 	doors[giftIndex] = "gift";
 
 	msg += `What the doors hide: [ ${doors.join(", ")} ]`;
-	msg += `\nThe player has to select indexes 0,1 or 2`;
+	msg += `\nThe player can select indexes 0,1 or 2`;
 
 	// console.log({ doors });
 	const selectedIndexByPlayer = getRandomInt(3);
@@ -46,7 +46,7 @@ const play = (printOption = true) => {
 		initialChoiceWins = true;
 		msg += `\n>> 🎁 The player selected a gift. If he changes his option he loses the gift)`;
 	} else {
-		msg += `\n>> ⚑ The player selected an empty door. He has to change his option to win the gift)`;
+		msg += `\n>> ⚑ The player selected an empty door. He has to change his option to win the gift`;
 	}
 
 	const can_remove_doorIndexes = CanRemoveIndexes(
