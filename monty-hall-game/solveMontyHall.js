@@ -1,3 +1,5 @@
+// Simple test function / simulation without the interactive game
+
 const getRandomInt = (max) => {
 	return Math.floor(Math.random() * max);
 };
@@ -91,7 +93,7 @@ const gameStatistics = (times) => {
 	}
 	const percentage_wins_if_change = (changeWinsTotal * 100) / times;
 
-	const msg = `\n\n\n===================\nGAME STATISTICS\n\n\nAfter repeating the game ${times} times, we cocnluded that by changing the option the percentage of winning is ${percentage_wins_if_change} %`;
+	const msg = `\n\n\n===================\nGAME STATISTICS\n\n\nAfter repeating the game ${times} times, we concluded that by changing the option the percentage of winning is ${percentage_wins_if_change} %`;
 
 	console.log(msg);
 };
@@ -106,4 +108,4 @@ play(true);
 play(true);
 play(true);
 
-gameStatistics((times = 100));
+gameStatistics((times = 1000));
